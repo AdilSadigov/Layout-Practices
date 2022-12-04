@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% auto 20%;
+    grid-template-areas: 
+        "nav main aside";
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: nav;
+    background-color: white;
+    padding: 25px;
+}
+
+.bg {
+    background-color: gray
+}
+
+nav .top .first {
+    display: flex;
+
+}
+
+nav .top .first .little {
+    height: 40px;
+    width: 40px;
+}
+
+nav .top .first .big {
+    margin-left: 25px;
+    height: 40px;
+    width: calc(100% - 65px);
+}
+
+nav .top .second {
+    margin-top: 50px;
+}
+
+nav .top .second div {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+nav .bottom {
+    height:28%;
+    width: 100%;
+}
+
+nav .bottom div{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: white;
+    padding: 25px;
+}
+
+aside .top {
+    display: flex;
+}
+
+aside .top .avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+aside .top .right {
+    height: 40px;
+    width: calc(100% - 60px);
+    margin-left: 25px;
+}
+
+aside .second-first {
+    width: 70%;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+aside .second-second {
+    width: 70%;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+aside .third-ones-first {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+aside .third-ones-second {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+aside .third-ones-first .first {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+aside .third-ones-second .first {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+aside .third-ones-first .second {
+    height: 35px;
+    width: calc(100% - 60px);
+}
+
+aside .third-ones-second .second {
+    height: 35px;
+    width: calc(100% - 60px);
+}
+
+aside .bottom {
+    width: 100%;
+    height: 18%;
+    border-radius: 10px;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(213, 213, 213);
+    padding: 30px;
+}
+
+main .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+main .top .first {
+    width: 50%;
+    height: 40px;
+    border-radius: 6px;
+}
+
+main .top .second {
+    height: 40px;
+    width: 40px;
+}
+
+main .second {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .second .first {
+    width: 200px;
+    height: 35px;
+}
+
+main .second .second-ones {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+main .second .second-ones div {
+    width: 30%;
+    height: 35px;
+}
+
+main .middle {
+    width: 100%;
+    height: 35%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+main .bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 32%;
+    margin-top: 25px;
+}
+
+main .bottom div{
+    width: 48%;
+    border-radius: 10px;
+}
+
+/* 57 min */
